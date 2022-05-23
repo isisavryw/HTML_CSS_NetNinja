@@ -1,0 +1,30 @@
+*{
+    background-color: #6b77b8;
+
+}
+h1{
+    text-align: center;
+}
+p.health{
+    border: 2.4px solid rgb(188, 146, 204);
+    padding:10px;
+    text-align: center;
+    margin: 2px;
+}
+p.wealth{
+    border: 2.4px solid rgb(152, 169, 225);
+    padding:10px;
+    text-align: center;
+    margin: 2px;
+}
+p.wisdom{
+    border: 2.4px solid rgb(234, 221, 169);
+    padding:10px ;
+    text-align: center;
+    margin: 2px;
+}
+.column{
+    float: left;
+    width: 33.3%;
+}
+
