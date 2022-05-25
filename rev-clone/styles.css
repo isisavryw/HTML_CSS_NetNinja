@@ -1,0 +1,135 @@
+/* CSS */
+
+ul {
+  display: flex;
+  justify-content: end;
+  height: 150px;
+  align-items: center;
+  list-style: none;
+}
+
+ul li {
+  margin-right: 25px;
+}
+
+.brand {
+  margin-right: auto;
+  margin-left: 25px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+}
+
+.left-container {
+  background-color: #eaf4f4;
+  height: 100vh;
+  flex: 30%;
+}
+
+.right-container {
+  background-color: #cce3de;
+  height: 100vh;
+  flex: 70%;
+}
+
+h2 {
+  font-size: 15px;
+  text-align: center;
+  margin: 5px 0 5px 0;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px 0 10px 0;
+}
+
+.nav-bar {
+  background-color: #6b9080;
+}
+
+.nav-item {
+  margin: 10px 0 10px 0;
+}
+.nav-item img {
+  border-radius: 50%;
+}
+
+.selection1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.selection2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.selection3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.selection4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.selection5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.selection6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* Right Container */
+
+.header {
+  display: flex;
+  justify-content: start;
+  flex-direction: row-reverse;
+  margin: 10px 0 10px 10px;
+}
+
+.all-courses {
+  padding-left: 10px;
+}
+
+.lesson {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 15px;
+  align-items: center;
+}
+.lesson img {
+  border-radius: 25%;
+  margin-right: 25px;
+}
+
+.card-content {
+  margin: 10px 10px 15px 15px;
+  line-height: 25px;
+}
+
+.button-row {
+  margin: 5px 8px 0 0;
+}
